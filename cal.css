@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.calc-body{
+    background-color: rgb(100, 97, 97);
+    width: 400px;
+    height: 500px;
+    left: 0;
+    top: 50px;
+    margin: auto;
+    margin-top: 10px;
+    padding-inline: 25px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+ #clacname{
+    font-style: italic;
+} 
+.onclr{
+    padding-inline-end: 10px;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    text-align: center;
+}
+
+.screen{
+    pointer-events: none;
+    height: 45px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: larger;
+    font-weight: lighter;
+    padding-inline: 8px;
+    outline: 1px solid rgb(0, 0, 0);
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    margin: 10px 16px;
+    font-weight: bold;
+    text-align:center;
+    font-size: larger;
+    box-shadow: 2px 5px;
+    border-radius: 8px;
+}
+.btn:focus{
+    background-color: brown;
+    color: burlywood;
+}
+.onoff{
+    width: 50px;
+    height: 50px;
+    font-size:  11px;
+    font-weight: lighter;
+    margin-top: 10px;
+    padding: 0;
+    color: white;
+    background-color: red; 
+    
+}
+.onclr button{
+    background-color: red;
+    color: white;
+    border-color: black;
+}
